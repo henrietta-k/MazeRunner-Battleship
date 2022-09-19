@@ -1,2 +1,2 @@
 # JavaProjects
-Completed Java projects 
+Completed Java games (Maze Runner and Battleship)
