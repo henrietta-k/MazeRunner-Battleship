@@ -119,7 +119,6 @@ public class Maze {
         }
     }
 
-//HERE IS THE METHOD THAT WAS ADDED IN 
     public boolean identifyMaze(int rowMove, int colMove) {
         if (col + colMove > 20 || col + colMove < 0 ||
                 row + rowMove > 20 || row + rowMove < 0) {
@@ -136,8 +135,6 @@ public class Maze {
             return false;
         }
     }
-
-    
 
     /**
      * Determines if your character can move right.
@@ -183,7 +180,6 @@ public class Maze {
         } else {
             throw new IllegalArgumentException("ERROR: You cannot move that way");
         }
-        //printMap(myMap);
     }
 
     /**
